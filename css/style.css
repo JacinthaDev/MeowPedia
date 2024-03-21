@@ -1,0 +1,136 @@
+* {
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+html {
+  width: 100%;
+}
+
+body {
+  min-height: 100vh;
+}
+
+nav {
+  background: rgb(214, 147, 216);
+  height: 50px;
+  width: 100%;
+}
+
+.logo {
+  color: white;
+  font-size: clamp(1.5rem, 2.5vw, 2rem);
+  font-weight: 500;
+  line-height: 50px;
+  padding: 0 50px;
+  text-transform: uppercase;
+  margin: 0;
+  display: inline-block;
+} 
+
+main {
+  min-height: 100vh;
+  width: 100%;
+  background-image: url(../img/cat_background.avif);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover; 
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#content-div{
+  margin-top: 3rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#imageAndButtonContainer{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top:2rem;
+}
+
+.container{
+  height: 20rem;
+  width: 20rem;
+  background: rgb(214, 147, 216);
+  border-radius: 5px;
+}
+
+#back-home-button{
+  width: 20rem;
+  margin-top: 2rem;
+}
+
+.border{
+  border: 3px dotted white;
+}
+
+.imageDimensions{
+  height: 15rem;
+  width: 15rem;
+}
+
+.imageDimensions2{
+  height: 20rem;
+  width: 20rem;
+}
+
+#all-info{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 35rem;
+  margin-top: 3rem;
+  background: rgb(214, 147, 216);
+  border-radius: 5px;
+  padding: 2rem;
+  border: 5px dotted white;
+}
+
+#description, #temperament{
+  margin-top: 2rem;
+}
+
+#origin, #description, #temperament, #breedName{
+  text-align: center;
+}
+
+button{
+  margin: .5rem 0;
+  padding: 5px;
+  border-radius: 5px;
+  border: none;
+  background: rgb(68, 19, 70);
+  color: white;
+}
+
+img{
+  margin-top: 2rem;
+  border-radius: 5px;
+}
+
+h2 {
+  font-size: clamp(1.5rem, 2.5vw, 2.5rem);
+  margin-bottom: 1rem;
+
+}
+
+p {
+  font-size: clamp(0.7rem, 2.5vw, 1rem);
+}
+
+@media screen and (max-width: 950px) {
+  
+  .logo {
+    padding-left: 40px;
+  }
+}
